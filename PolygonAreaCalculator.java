@@ -1,8 +1,10 @@
 import java.util.Scanner;
 
-public class PolygonAreaCalculator {
+public class PolygonAreaCalculator 
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Введите количество вершин многоугольника:");
@@ -22,7 +24,8 @@ public class PolygonAreaCalculator {
         scanner.close();
     }
 
-    private static double calculateArea(double[][] points) {
+    private static double calculateArea(double[][] points) 
+    {
         double area = 0.0;
         int n = points.length;
 
